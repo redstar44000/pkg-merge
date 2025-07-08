@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include <stdio.h>
+#include <regex>
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -11,7 +12,7 @@
 #include <list>
 #include <assert.h>
 
-namespace fs = std::experimental::filesystem;
+namespace fs = std::filesystem;
 using std::string;
 using std::map;
 using std::vector;
