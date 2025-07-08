@@ -19,7 +19,7 @@ jobs:
           cl /std:c++17 /EHsc /Fe:pkg-merge.exe pkgmerge.cpp stdafx.cpp
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: pkg-merge-exe
           path: pkg-merge.exe
