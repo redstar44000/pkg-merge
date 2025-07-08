@@ -12,3 +12,4 @@ A tool to merge parts of a PS4 PKG into one entire PKG file. Useful for installi
 1. Clone the repo
 1. Open project using Visual Studio (I used VS 2017 Community with the C++ build tools installed)
 1. Build and run
+Updated README to trigger GitHub Actions.
